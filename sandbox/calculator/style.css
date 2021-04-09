@@ -64,9 +64,13 @@ body {
 }
 
 /* span across 3 columns */
-.is-zero,
 .is-clear {
     grid-column: span 3;
+}
+
+/* span across 2 columns */
+.is-zero {
+    grid-column: span 2;
 }
 
 /* go blue */
